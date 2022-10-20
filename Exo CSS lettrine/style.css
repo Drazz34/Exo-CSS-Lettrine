@@ -1,0 +1,19 @@
+.text {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 15px;
+}
+
+.first_letter::first-letter {
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.first_line::first-line {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
